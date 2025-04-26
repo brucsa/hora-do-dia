@@ -1,21 +1,25 @@
-body{
-background-color: #5ba2bb;
-font: normal 1.2rem;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    background-color: #5ba2bb;
+    font: normal 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
-color: #fff;
-text-align: center;
+    color: #fff;
+    text-align: center;
+}
+
+#msg {
+    color: #000;
 }
 
 section {
-background-color: #fff;
-border-radius: 10px;
-padding: 15px;
-width: 500px;
-margin: auto;
-box-shadow: 3px 3px 10px #0000006b;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px #0000006b;
 }
 
 div {
@@ -42,4 +46,8 @@ footer a:hover {
 /* MOBILE */
 @media(max-width:700px) {
 
+    section {
+        padding: 10px;
+        width: 300px;
+    }
 }
