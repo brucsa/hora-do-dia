@@ -1,10 +1,11 @@
 body{
 background-color: #5ba2bb;
-font: normal 15pt Arial;
+font: normal 1.2rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
-color: #000;
+color: #fff;
 text-align: center;
 }
 
@@ -17,9 +18,16 @@ margin: auto;
 box-shadow: 3px 3px 10px #0000006b;
 }
 
-footer {
-    color: #fff;
+div {
     text-align: center;
+    padding: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+
 }
 
 footer a {
@@ -29,4 +37,9 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* MOBILE */
+@media(max-width:700px) {
+
 }
